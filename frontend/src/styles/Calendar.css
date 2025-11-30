@@ -1,0 +1,36 @@
+/* Strong override for attendance colors */
+.react-calendar__tile.day-present {
+  background-color: #c8f7c5 !important;
+  box-shadow: inset 0 0 0 2px #9ddf9a !important;
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile.day-absent {
+  background-color: #f7c5c5 !important;
+  box-shadow: inset 0 0 0 2px #e99 !important;
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile.day-late {
+  background-color: #f7f2c5 !important;
+  box-shadow: inset 0 0 0 2px #e6da8c !important;
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile.day-half {
+  background-color: #f5d1a1 !important;
+  box-shadow: inset 0 0 0 2px #e8a55c !important;
+  border-radius: 8px !important;
+}
+
+/* Remove hover effect override */
+.react-calendar__tile:hover {
+  background-color: inherit !important;
+  filter: brightness(0.95);
+}
+
+/* Remove default blue selection */
+.react-calendar__tile--active {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 0 2px #0099ff !important;
+}
